@@ -1,5 +1,7 @@
 # Customizing the ABP Basic Theme with Bootswatch
 
+The source code for this project can be found in the [jonathanpotts/AbpBootswatchDemo GitHub repo](https://github.com/jonathanpotts/AbpBootswatchDemo).
+
 While the ABP Basic Theme is a good starting point for your ABP app, you may want to add some more flair to it. We can accomplish this with Bootswatch.
 
 ## What is Bootswatch?
