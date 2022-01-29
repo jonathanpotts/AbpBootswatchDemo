@@ -34,7 +34,7 @@ If you do not have SQL Server Express LocalDB installed (or are on Linux or Mac)
 abp new BootswatchDemo -dbms SQLite
 ```
 
-We should now have a starter app to work with in the **BootswatchDemo** directory.
+We should now have a starter app to work with in our directory.
 
 Let's run the **BootswatchDemo.DbMigrator** project to setup the app's database. You can do this in the terminal while in the **BootswatchDemo.DbMigrator** project directory by running the following command:
 
@@ -167,7 +167,7 @@ We need to override some of the layouts and components of the ABP Basic Theme to
 
 To do this, we will put modified versions of the ABP Basic Theme files that need to be overridden in the **BootswatchDemo.Web** project directory. By matching the same directory structure as the ABP Basic Theme, the files in the project will override the built-in ABP Basic Theme files.
 
-For reference, the source code for the ABP Basic Theme is available on the abpframework/abp GitHub repository under [./modules/basic-theme/src/Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic](https://github.com/abpframework/abp/tree/dev/modules/basic-theme/src/Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic).
+For reference, the source code for the ABP Basic Theme is available in the abpframework/abp GitHub repository under [./modules/basic-theme/src/Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic](https://github.com/abpframework/abp/tree/dev/modules/basic-theme/src/Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic).
 
 We need to add the following files to the **BootswatchDemo.Web** project directory which are modified from the source code for the ABP Basic Theme:
 
