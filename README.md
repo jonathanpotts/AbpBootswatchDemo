@@ -199,6 +199,8 @@ We need to add the following files to the **BootswatchDemo.Web** project directo
 
 In this file, we changed the `nav` element to use the `bg-primary` class instead of the `bg-dark` class.
 
+> **Notice:** As of ABP Framework 5.1.4, the next two files (**Account.cshtml** and **Application.cshtml**) do not need to be added.
+
 **Themes/Basic/Layouts/Account.cshtml**:
 
 ```cs

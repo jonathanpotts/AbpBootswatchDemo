@@ -260,3 +260,6 @@ src/BootswatchDemo.HttpApi.HostWithIds/Logs/*
 src/BootswatchDemo.DbMigrator/Logs/*
 src/BootswatchDemo.Blazor.Server/Logs/*
 src/BootswatchDemo.Blazor.Server.Tiered/Logs/*
+
+# Third-party libaries
+src/BootswatchDemo.Web/wwwroot/libs/
